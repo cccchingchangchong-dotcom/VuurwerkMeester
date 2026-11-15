@@ -1,0 +1,16 @@
+# Vuurwerk Meester NL — online deploy
+
+Deze versie is voorbereid voor Render als Node-webservice. De app serveert de gebouwde Vite-site vanuit Express en gebruikt dezelfde server voor WebSockets op `/ws`.
+
+## Publiceren
+1. Pak deze ZIP uit.
+2. Zet de inhoud in een nieuwe GitHub-repository.
+3. Open https://render.com/ en kies **New → Blueprint**.
+4. Koppel de GitHub-repository waarin deze bestanden staan.
+5. Render leest `render.yaml`; controleer de instellingen en kies **Apply**.
+6. Wacht tot de deployment klaar is. Open de `onrender.com`-URL die Render toont en deel die met je vrienden.
+
+## Belangrijk
+- De multiplayerkamers worden momenteel in het geheugen van één serverinstantie bijgehouden. Gebruik daarom één instance; schaal niet naar meerdere instances zonder gedeelde opslag/pub-sub.
+- De gratis hosting kan bij inactiviteit slapen. De eerste keer openen kan dan even duren.
+- De URL wordt pas aangemaakt door Render nadat jij de repository aan je Render-account hebt gekoppeld en de deployment hebt goedgekeurd.

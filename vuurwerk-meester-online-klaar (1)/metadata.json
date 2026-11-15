@@ -1,0 +1,6 @@
+{
+  "name": "Vuurwerk Meester NL — Ultimate Dutch Fireworks Simulator",
+  "description": "A hyperrealistic 3D first-person Dutch fireworks simulator featuring the 600x600m open world Nieuw-Oranjestad, walkable fireworks supermarket with 220+ original products, dynamic weather and PBR reflections, interactive fuse ignition, custom display mode, and online multiplayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
